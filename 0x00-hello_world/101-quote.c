@@ -1,2 +1,18 @@
-VimCrypt~03!©Å"Y3ÏÎOÉT“Ğ	ŸzÃMz\Ú oÓ5ïDìèÿÒ¦`Ø`ëo«òœşÊÊÂ¡N(ÄèR:ñ`|ê“Ky XòOí“cÆdÛg´§Í	S–r/§Uïİ=:Á1&ß8~+Ä”ñààN—z65Óm¤Ö!wÙ>cF¢ú©Š ¡k3 ò4Á›J›œiŒ?ä
-5õı(‹É“ÅèVy­9ıÍİ Šª6<~DÕ	A5Í{ÇA˜â@j»×uvï*¶¥r¹âY–]oRzjEbò¤—‰ŸL|F3ı0ÿë¿ûºY5¸¾VŒ R¥(Ü¤«OVáZ²fòZUˆæmv“+Ûå û·:Ó'9$ãœ›÷‘zB\Õ-‘èæïqé¥3xÄòğ«**ôIˆ×ùP5üuYiíHnÃìÆŠìÏ[ôãîïÃ
+:#include<unistd.h>
+
+/**
+ * main -Entry point
+ *
+ * Description: print a quote using write function
+ *    ssize_t write(int fd, const void 1.
+ *
+ *    Return: This time we return an error 1.
+ */
+
+int main(void)
+{
+	char quo[] = "and that piece of art isuseful\" - Dora Korpar, 2015-10-19\n";
+
+	write(1, quo, 59);
+	return (1);
+}
